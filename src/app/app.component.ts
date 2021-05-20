@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// import { MatButtonModule } from '@angular/material';
+// import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  // import: [MatButtonModule]
   title = 'myApp';
 }
